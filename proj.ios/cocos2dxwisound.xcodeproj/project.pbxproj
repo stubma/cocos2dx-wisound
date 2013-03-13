@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		926E9CCE16F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */; };
 		926E9CCF16F05526001529BD /* CCAssetInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBA16F05526001529BD /* CCAssetInputStream.cpp */; };
 		926E9CD016F05526001529BD /* CCAssetInputStream_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBC16F05526001529BD /* CCAssetInputStream_ios.cpp */; };
 		926E9CD116F05526001529BD /* CCAudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBE16F05526001529BD /* CCAudioPlayer.cpp */; };
@@ -139,8 +138,6 @@
 
 /* Begin PBXFileReference section */
 		926E9CB316F05526001529BD /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
-		926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine_mediaplayer.cpp; sourceTree = "<group>"; };
-		926E9CB816F05526001529BD /* SimpleAudioEngine_mediaplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_mediaplayer.h; sourceTree = "<group>"; };
 		926E9CBA16F05526001529BD /* CCAssetInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream.cpp; sourceTree = "<group>"; };
 		926E9CBB16F05526001529BD /* CCAssetInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetInputStream.h; sourceTree = "<group>"; };
 		926E9CBC16F05526001529BD /* CCAssetInputStream_ios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream_ios.cpp; sourceTree = "<group>"; };
@@ -320,19 +317,9 @@
 		926E9CB516F05526001529BD /* backends */ = {
 			isa = PBXGroup;
 			children = (
-				926E9CB616F05526001529BD /* mediaplayer */,
 				926E9CB916F05526001529BD /* openal */,
 			);
 			path = backends;
-			sourceTree = "<group>";
-		};
-		926E9CB616F05526001529BD /* mediaplayer */ = {
-			isa = PBXGroup;
-			children = (
-				926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */,
-				926E9CB816F05526001529BD /* SimpleAudioEngine_mediaplayer.h */,
-			);
-			path = mediaplayer;
 			sourceTree = "<group>";
 		};
 		926E9CB916F05526001529BD /* openal */ = {
@@ -702,7 +689,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926E9CCE16F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp in Sources */,
 				926E9CCF16F05526001529BD /* CCAssetInputStream.cpp in Sources */,
 				926E9CD016F05526001529BD /* CCAssetInputStream_ios.cpp in Sources */,
 				926E9CD116F05526001529BD /* CCAudioPlayer.cpp in Sources */,

@@ -21,12 +21,10 @@ LOCAL_CFLAGS += -DBACKEND_MEDIAPLAYER
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
 LOCAL_C_INCLUDES := $(LOCAL_EXPORT_C_INCLUDES) \
 	$(LOCAL_PATH)/src/backends/mediaplayer
-LOCAL_SRC_FILES := $(call all-cpp-files-under,src)
-LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static cocos2dx-common mpg123 vorbis
+LOCAL_SRC_FILES := $(call all-cpp-files-under,src/backends/mediaplayer)
+LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static cocos2dx-common
 
 include $(BUILD_STATIC_LIBRARY)
 
 $(call import-module,cocos2dx)
 $(call import-module,cocos2dx-common)
-$(call import-module,libmpg123)
-$(call import-module,vorbis)
