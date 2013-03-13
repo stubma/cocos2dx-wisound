@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		926E9C4F16F04B0F001529BD /* CCMemoryInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9C4D16F04B0F001529BD /* CCMemoryInputStream.cpp */; };
+		926E9CCE16F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */; };
+		926E9CCF16F05526001529BD /* CCAssetInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBA16F05526001529BD /* CCAssetInputStream.cpp */; };
+		926E9CD016F05526001529BD /* CCAssetInputStream_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBC16F05526001529BD /* CCAssetInputStream_ios.cpp */; };
+		926E9CD116F05526001529BD /* CCAudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CBE16F05526001529BD /* CCAudioPlayer.cpp */; };
+		926E9CD216F05526001529BD /* CCAudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CC016F05526001529BD /* CCAudioStream.cpp */; };
+		926E9CD316F05526001529BD /* CCMemoryInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CC216F05526001529BD /* CCMemoryInputStream.cpp */; };
+		926E9CD416F05526001529BD /* CCMp3Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CC416F05526001529BD /* CCMp3Stream.cpp */; };
+		926E9CD516F05526001529BD /* CCOggStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CC616F05526001529BD /* CCOggStream.cpp */; };
+		926E9CD616F05526001529BD /* CCOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CC816F05526001529BD /* CCOpenAL.cpp */; };
+		926E9CD716F05526001529BD /* CCWavStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CCA16F05526001529BD /* CCWavStream.cpp */; };
+		926E9CD816F05526001529BD /* SimpleAudioEngine_openal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926E9CCC16F05526001529BD /* SimpleAudioEngine_openal.cpp */; };
 		92774A3C16EF05EE008E67C8 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DFBC1816E860D00016648F /* libcocos2dx.a */; };
 		92774A4416EF0C72008E67C8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92774A4316EF0C72008E67C8 /* CoreFoundation.framework */; };
-		928C347416F015C900C051D1 /* CCAssetInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C347016F015C900C051D1 /* CCAssetInputStream.cpp */; };
-		928C347516F015C900C051D1 /* CCAssetInputStream_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C347216F015C900C051D1 /* CCAssetInputStream_ios.cpp */; };
 		928C347716F0175E00C051D1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C347616F0175E00C051D1 /* OpenAL.framework */; };
 		928C348116F0192200C051D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B516E716E86020009F3536 /* Foundation.framework */; };
 		928C34FE16F0194000C051D1 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 928C348E16F0194000C051D1 /* compat.c */; };
@@ -57,15 +65,7 @@
 		928C358E16F01D3700C051D1 /* vorbisfile.c in Sources */ = {isa = PBXBuildFile; fileRef = 928C357D16F01D3700C051D1 /* vorbisfile.c */; };
 		928C358F16F01D3700C051D1 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 928C357E16F01D3700C051D1 /* window.c */; };
 		928C359016F01D3C00C051D1 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C355216F01D2C00C051D1 /* libvorbis.a */; };
-		928C35A316F01E0A00C051D1 /* CCAudioStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C359716F01E0A00C051D1 /* CCAudioStream.cpp */; };
-		928C35AA16F0218900C051D1 /* CCMp3Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35A816F0218900C051D1 /* CCMp3Stream.cpp */; };
-		928C35AD16F023B000C051D1 /* CCOggStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35AB16F023B000C051D1 /* CCOggStream.cpp */; };
-		928C35B016F0249700C051D1 /* CCWavStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35AE16F0249700C051D1 /* CCWavStream.cpp */; };
-		928C35B316F025C700C051D1 /* CCOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35B116F025C600C051D1 /* CCOpenAL.cpp */; };
 		928C35BE16F02B1300C051D1 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C35BD16F02B1300C051D1 /* libpthread.dylib */; };
-		928C35C116F02BD700C051D1 /* CCAudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35BF16F02BD600C051D1 /* CCAudioPlayer.cpp */; };
-		928C35C416F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35C216F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.cpp */; };
-		928C35C716F0496100C051D1 /* SimpleAudioEngine_openal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928C35C516F0495900C051D1 /* SimpleAudioEngine_openal.cpp */; };
 		92B516E816E86020009F3536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B516E716E86020009F3536 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -138,15 +138,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		926E9C4D16F04B0F001529BD /* CCMemoryInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMemoryInputStream.cpp; sourceTree = "<group>"; };
-		926E9C4E16F04B0F001529BD /* CCMemoryInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMemoryInputStream.h; sourceTree = "<group>"; };
+		926E9CB316F05526001529BD /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
+		926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine_mediaplayer.cpp; sourceTree = "<group>"; };
+		926E9CB816F05526001529BD /* SimpleAudioEngine_mediaplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_mediaplayer.h; sourceTree = "<group>"; };
+		926E9CBA16F05526001529BD /* CCAssetInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream.cpp; sourceTree = "<group>"; };
+		926E9CBB16F05526001529BD /* CCAssetInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetInputStream.h; sourceTree = "<group>"; };
+		926E9CBC16F05526001529BD /* CCAssetInputStream_ios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream_ios.cpp; sourceTree = "<group>"; };
+		926E9CBD16F05526001529BD /* CCAssetInputStream_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetInputStream_ios.h; sourceTree = "<group>"; };
+		926E9CBE16F05526001529BD /* CCAudioPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAudioPlayer.cpp; sourceTree = "<group>"; };
+		926E9CBF16F05526001529BD /* CCAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioPlayer.h; sourceTree = "<group>"; };
+		926E9CC016F05526001529BD /* CCAudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAudioStream.cpp; sourceTree = "<group>"; };
+		926E9CC116F05526001529BD /* CCAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioStream.h; sourceTree = "<group>"; };
+		926E9CC216F05526001529BD /* CCMemoryInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMemoryInputStream.cpp; sourceTree = "<group>"; };
+		926E9CC316F05526001529BD /* CCMemoryInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMemoryInputStream.h; sourceTree = "<group>"; };
+		926E9CC416F05526001529BD /* CCMp3Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMp3Stream.cpp; sourceTree = "<group>"; };
+		926E9CC516F05526001529BD /* CCMp3Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMp3Stream.h; sourceTree = "<group>"; };
+		926E9CC616F05526001529BD /* CCOggStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCOggStream.cpp; sourceTree = "<group>"; };
+		926E9CC716F05526001529BD /* CCOggStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOggStream.h; sourceTree = "<group>"; };
+		926E9CC816F05526001529BD /* CCOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCOpenAL.cpp; sourceTree = "<group>"; };
+		926E9CC916F05526001529BD /* CCOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOpenAL.h; sourceTree = "<group>"; };
+		926E9CCA16F05526001529BD /* CCWavStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWavStream.cpp; sourceTree = "<group>"; };
+		926E9CCB16F05526001529BD /* CCWavStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWavStream.h; sourceTree = "<group>"; };
+		926E9CCC16F05526001529BD /* SimpleAudioEngine_openal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine_openal.cpp; sourceTree = "<group>"; };
+		926E9CCD16F05526001529BD /* SimpleAudioEngine_openal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_openal.h; sourceTree = "<group>"; };
 		92774A3716EF0523008E67C8 /* cocos2dxwisound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocos2dxwisound-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		92774A4316EF0C72008E67C8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		92774B2F16EF25B0008E67C8 /* cocos2dxcommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dxcommon.xcodeproj; path = "../../cocos2dx-common/proj.ios/cocos2dxcommon.xcodeproj"; sourceTree = "<group>"; };
-		928C347016F015C900C051D1 /* CCAssetInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream.cpp; sourceTree = "<group>"; };
-		928C347116F015C900C051D1 /* CCAssetInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetInputStream.h; sourceTree = "<group>"; };
-		928C347216F015C900C051D1 /* CCAssetInputStream_ios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAssetInputStream_ios.cpp; sourceTree = "<group>"; };
-		928C347316F015C900C051D1 /* CCAssetInputStream_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAssetInputStream_ios.h; sourceTree = "<group>"; };
 		928C347616F0175E00C051D1 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		928C348016F0192200C051D1 /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		928C348E16F0194000C051D1 /* compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compat.c; sourceTree = "<group>"; };
@@ -242,24 +259,7 @@
 		928C357E16F01D3700C051D1 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
 		928C357F16F01D3700C051D1 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		928C358016F01D3700C051D1 /* window_lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window_lookup.h; sourceTree = "<group>"; };
-		928C359716F01E0A00C051D1 /* CCAudioStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAudioStream.cpp; sourceTree = "<group>"; };
-		928C359816F01E0A00C051D1 /* CCAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioStream.h; sourceTree = "<group>"; };
-		928C35A816F0218900C051D1 /* CCMp3Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCMp3Stream.cpp; sourceTree = "<group>"; };
-		928C35A916F0218900C051D1 /* CCMp3Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMp3Stream.h; sourceTree = "<group>"; };
-		928C35AB16F023B000C051D1 /* CCOggStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCOggStream.cpp; sourceTree = "<group>"; };
-		928C35AC16F023B000C051D1 /* CCOggStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOggStream.h; sourceTree = "<group>"; };
-		928C35AE16F0249700C051D1 /* CCWavStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCWavStream.cpp; sourceTree = "<group>"; };
-		928C35AF16F0249700C051D1 /* CCWavStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWavStream.h; sourceTree = "<group>"; };
-		928C35B116F025C600C051D1 /* CCOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCOpenAL.cpp; sourceTree = "<group>"; };
-		928C35B216F025C600C051D1 /* CCOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCOpenAL.h; sourceTree = "<group>"; };
-		928C35B516F0268500C051D1 /* SimpleAudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
 		928C35BD16F02B1300C051D1 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
-		928C35BF16F02BD600C051D1 /* CCAudioPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAudioPlayer.cpp; sourceTree = "<group>"; };
-		928C35C016F02BD600C051D1 /* CCAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAudioPlayer.h; sourceTree = "<group>"; };
-		928C35C216F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine_mediaplayer.cpp; sourceTree = "<group>"; };
-		928C35C316F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_mediaplayer.h; sourceTree = "<group>"; };
-		928C35C516F0495900C051D1 /* SimpleAudioEngine_openal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine_openal.cpp; sourceTree = "<group>"; };
-		928C35C616F0495B00C051D1 /* SimpleAudioEngine_openal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine_openal.h; sourceTree = "<group>"; };
 		92B516E416E86020009F3536 /* libcocos2dxwisound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2dxwisound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B516E716E86020009F3536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92DFBC1016E860D00016648F /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../cocos2d-x/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
@@ -299,13 +299,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		92774A3816EF05C4008E67C8 /* src */ = {
+		926E9CB216F05526001529BD /* include */ = {
 			isa = PBXGroup;
 			children = (
-				928C346D16F015C900C051D1 /* backends */,
+				926E9CB316F05526001529BD /* SimpleAudioEngine.h */,
+			);
+			name = include;
+			path = "../cocos2dx-wisound/include";
+			sourceTree = "<group>";
+		};
+		926E9CB416F05526001529BD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				926E9CB516F05526001529BD /* backends */,
 			);
 			name = src;
-			path = "../coco2dx-wisound/src";
+			path = "../cocos2dx-wisound/src";
+			sourceTree = "<group>";
+		};
+		926E9CB516F05526001529BD /* backends */ = {
+			isa = PBXGroup;
+			children = (
+				926E9CB616F05526001529BD /* mediaplayer */,
+				926E9CB916F05526001529BD /* openal */,
+			);
+			path = backends;
+			sourceTree = "<group>";
+		};
+		926E9CB616F05526001529BD /* mediaplayer */ = {
+			isa = PBXGroup;
+			children = (
+				926E9CB716F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp */,
+				926E9CB816F05526001529BD /* SimpleAudioEngine_mediaplayer.h */,
+			);
+			path = mediaplayer;
+			sourceTree = "<group>";
+		};
+		926E9CB916F05526001529BD /* openal */ = {
+			isa = PBXGroup;
+			children = (
+				926E9CBA16F05526001529BD /* CCAssetInputStream.cpp */,
+				926E9CBB16F05526001529BD /* CCAssetInputStream.h */,
+				926E9CBC16F05526001529BD /* CCAssetInputStream_ios.cpp */,
+				926E9CBD16F05526001529BD /* CCAssetInputStream_ios.h */,
+				926E9CBE16F05526001529BD /* CCAudioPlayer.cpp */,
+				926E9CBF16F05526001529BD /* CCAudioPlayer.h */,
+				926E9CC016F05526001529BD /* CCAudioStream.cpp */,
+				926E9CC116F05526001529BD /* CCAudioStream.h */,
+				926E9CC216F05526001529BD /* CCMemoryInputStream.cpp */,
+				926E9CC316F05526001529BD /* CCMemoryInputStream.h */,
+				926E9CC416F05526001529BD /* CCMp3Stream.cpp */,
+				926E9CC516F05526001529BD /* CCMp3Stream.h */,
+				926E9CC616F05526001529BD /* CCOggStream.cpp */,
+				926E9CC716F05526001529BD /* CCOggStream.h */,
+				926E9CC816F05526001529BD /* CCOpenAL.cpp */,
+				926E9CC916F05526001529BD /* CCOpenAL.h */,
+				926E9CCA16F05526001529BD /* CCWavStream.cpp */,
+				926E9CCB16F05526001529BD /* CCWavStream.h */,
+				926E9CCC16F05526001529BD /* SimpleAudioEngine_openal.cpp */,
+				926E9CCD16F05526001529BD /* SimpleAudioEngine_openal.h */,
+			);
+			path = openal;
 			sourceTree = "<group>";
 		};
 		92774B3016EF25B0008E67C8 /* Products */ = {
@@ -314,51 +368,6 @@
 				92774B3816EF25B0008E67C8 /* libcocos2dxcommon.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		928C346D16F015C900C051D1 /* backends */ = {
-			isa = PBXGroup;
-			children = (
-				928C346E16F015C900C051D1 /* mediaplayer */,
-				928C346F16F015C900C051D1 /* openal */,
-			);
-			path = backends;
-			sourceTree = "<group>";
-		};
-		928C346E16F015C900C051D1 /* mediaplayer */ = {
-			isa = PBXGroup;
-			children = (
-				928C35C216F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.cpp */,
-				928C35C316F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.h */,
-			);
-			path = mediaplayer;
-			sourceTree = "<group>";
-		};
-		928C346F16F015C900C051D1 /* openal */ = {
-			isa = PBXGroup;
-			children = (
-				928C35C516F0495900C051D1 /* SimpleAudioEngine_openal.cpp */,
-				928C35C616F0495B00C051D1 /* SimpleAudioEngine_openal.h */,
-				928C35BF16F02BD600C051D1 /* CCAudioPlayer.cpp */,
-				928C35C016F02BD600C051D1 /* CCAudioPlayer.h */,
-				928C359716F01E0A00C051D1 /* CCAudioStream.cpp */,
-				928C359816F01E0A00C051D1 /* CCAudioStream.h */,
-				928C35A816F0218900C051D1 /* CCMp3Stream.cpp */,
-				928C35A916F0218900C051D1 /* CCMp3Stream.h */,
-				928C35AB16F023B000C051D1 /* CCOggStream.cpp */,
-				928C35AC16F023B000C051D1 /* CCOggStream.h */,
-				928C35AE16F0249700C051D1 /* CCWavStream.cpp */,
-				928C35AF16F0249700C051D1 /* CCWavStream.h */,
-				928C35B116F025C600C051D1 /* CCOpenAL.cpp */,
-				928C35B216F025C600C051D1 /* CCOpenAL.h */,
-				928C347016F015C900C051D1 /* CCAssetInputStream.cpp */,
-				928C347116F015C900C051D1 /* CCAssetInputStream.h */,
-				926E9C4D16F04B0F001529BD /* CCMemoryInputStream.cpp */,
-				926E9C4E16F04B0F001529BD /* CCMemoryInputStream.h */,
-				928C347216F015C900C051D1 /* CCAssetInputStream_ios.cpp */,
-				928C347316F015C900C051D1 /* CCAssetInputStream_ios.h */,
-			);
-			path = openal;
 			sourceTree = "<group>";
 		};
 		928C348C16F0194000C051D1 /* libmpg123 */ = {
@@ -469,20 +478,11 @@
 			path = ../vorbis;
 			sourceTree = "<group>";
 		};
-		928C35B416F0268500C051D1 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				928C35B516F0268500C051D1 /* SimpleAudioEngine.h */,
-			);
-			name = include;
-			path = "../coco2dx-wisound/include";
-			sourceTree = "<group>";
-		};
 		92B516D916E86020009F3536 = {
 			isa = PBXGroup;
 			children = (
-				928C35B416F0268500C051D1 /* include */,
-				92774A3816EF05C4008E67C8 /* src */,
+				926E9CB216F05526001529BD /* include */,
+				926E9CB416F05526001529BD /* src */,
 				928C348C16F0194000C051D1 /* libmpg123 */,
 				928C355E16F01D3600C051D1 /* vorbis */,
 				92B516EA16E86020009F3536 /* Supporting Files */,
@@ -702,17 +702,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928C347416F015C900C051D1 /* CCAssetInputStream.cpp in Sources */,
-				928C347516F015C900C051D1 /* CCAssetInputStream_ios.cpp in Sources */,
-				928C35A316F01E0A00C051D1 /* CCAudioStream.cpp in Sources */,
-				928C35AA16F0218900C051D1 /* CCMp3Stream.cpp in Sources */,
-				928C35AD16F023B000C051D1 /* CCOggStream.cpp in Sources */,
-				928C35B016F0249700C051D1 /* CCWavStream.cpp in Sources */,
-				928C35B316F025C700C051D1 /* CCOpenAL.cpp in Sources */,
-				928C35C116F02BD700C051D1 /* CCAudioPlayer.cpp in Sources */,
-				928C35C416F031AF00C051D1 /* SimpleAudioEngine_mediaplayer.cpp in Sources */,
-				928C35C716F0496100C051D1 /* SimpleAudioEngine_openal.cpp in Sources */,
-				926E9C4F16F04B0F001529BD /* CCMemoryInputStream.cpp in Sources */,
+				926E9CCE16F05526001529BD /* SimpleAudioEngine_mediaplayer.cpp in Sources */,
+				926E9CCF16F05526001529BD /* CCAssetInputStream.cpp in Sources */,
+				926E9CD016F05526001529BD /* CCAssetInputStream_ios.cpp in Sources */,
+				926E9CD116F05526001529BD /* CCAudioPlayer.cpp in Sources */,
+				926E9CD216F05526001529BD /* CCAudioStream.cpp in Sources */,
+				926E9CD316F05526001529BD /* CCMemoryInputStream.cpp in Sources */,
+				926E9CD416F05526001529BD /* CCMp3Stream.cpp in Sources */,
+				926E9CD516F05526001529BD /* CCOggStream.cpp in Sources */,
+				926E9CD616F05526001529BD /* CCOpenAL.cpp in Sources */,
+				926E9CD716F05526001529BD /* CCWavStream.cpp in Sources */,
+				926E9CD816F05526001529BD /* SimpleAudioEngine_openal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
