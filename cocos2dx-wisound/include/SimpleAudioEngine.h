@@ -29,8 +29,10 @@
 #include <typeinfo>
 #include <ctype.h>
 #include <string.h>
+#include "cocos2d-common.h"
 
 USING_NS_CC;
+using namespace std;
 
 namespace WiSound {
 
@@ -40,10 +42,38 @@ namespace WiSound {
 */
 
 class CC_DLL SimpleAudioEngine : public CCObject {
+private:
+	/// load task for loading a background music
+	struct MusicLoadTask : public CCResourceLoader::LoadTask {
+		// music file path
+		string path;
+		
+		virtual ~MusicLoadTask() {}
+		
+		virtual void load() {
+			SimpleAudioEngine::sharedEngine()->preloadBackgroundMusic(path.c_str());
+		}
+	};
+	
+	/// load task for loading an effect
+	struct EffectLoadTask : public CCResourceLoader::LoadTask {
+		string path;
+		
+		virtual ~EffectLoadTask() {}
+		
+		virtual void load() {
+			SimpleAudioEngine::sharedEngine()->preloadEffect(path.c_str());
+		}
+	};
+	
 protected:
     SimpleAudioEngine() {}
     
 public:
+	// to add a resource loader task
+	static void addMusicTask(CCResourceLoader* rl, const string& path, float idle = 0);
+	static void addEffectTask(CCResourceLoader* rl, const string& path, float idle = 0);
+	
     virtual ~SimpleAudioEngine() {}
 
     /**

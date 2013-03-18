@@ -62,6 +62,7 @@
 		928C358F16F01D3700C051D1 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 928C357E16F01D3700C051D1 /* window.c */; };
 		928C359016F01D3C00C051D1 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C355216F01D2C00C051D1 /* libvorbis.a */; };
 		928C35BE16F02B1300C051D1 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C35BD16F02B1300C051D1 /* libpthread.dylib */; };
+		92B18D3916F74EA800CFE2D3 /* SimpleAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B18D3816F74EA800CFE2D3 /* SimpleAudioEngine.cpp */; };
 		92B516E816E86020009F3536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B516E716E86020009F3536 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -248,6 +249,7 @@
 		928C357F16F01D3700C051D1 /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window.h; sourceTree = "<group>"; };
 		928C358016F01D3700C051D1 /* window_lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = window_lookup.h; sourceTree = "<group>"; };
 		928C35BD16F02B1300C051D1 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		92B18D3816F74EA800CFE2D3 /* SimpleAudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine.cpp; sourceTree = "<group>"; };
 		92B516E416E86020009F3536 /* libcocos2dxwisound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocos2dxwisound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B516E716E86020009F3536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92DFBC1016E860D00016648F /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../cocos2d-x/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 		926E9CB416F05526001529BD /* src */ = {
 			isa = PBXGroup;
 			children = (
+				92B18D3816F74EA800CFE2D3 /* SimpleAudioEngine.cpp */,
 				926E9CB516F05526001529BD /* backends */,
 			);
 			name = src;
@@ -681,6 +684,7 @@
 				926E9CD616F05526001529BD /* CCOpenAL.cpp in Sources */,
 				926E9CD716F05526001529BD /* CCWavStream.cpp in Sources */,
 				926E9CD816F05526001529BD /* SimpleAudioEngine_openal.cpp in Sources */,
+				92B18D3916F74EA800CFE2D3 /* SimpleAudioEngine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
