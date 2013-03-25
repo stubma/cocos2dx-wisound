@@ -7,8 +7,10 @@ It supports OGG, MP3 and WAV for iOS, Android, MacOSX and Windows.
 Requirement
 ===========
 cocos2dx-wisound project refers cocos2d-x project. You must clone cocos2d-x repository to a folder named "cocos2d-x", 
-and then clone cocos2dx-wisound in the same parent folder. cocos2dx-wisound also refers cocos2dx-common, so clone it in 
-same parent folder also.
+and then clone cocos2dx-wisound in the same parent folder. 
+
+I put some common code to https://github.com/stubma/cocos2dx-common, so also clone it in the same parent folder.
+The cocos2dx-common is referred by all my cocos2d-x extensions.
 
 Demo
 ===========
